@@ -1,0 +1,16 @@
+PODS:
+  - Ono (2.1.1)
+
+DEPENDENCIES:
+  - Ono
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Ono
+
+SPEC CHECKSUMS:
+  Ono: 13c25831a4a66b30df93bd1fa57cf70f13c62699
+
+PODFILE CHECKSUM: b8b20067612091d1ce3b1bc576040af0706f3cc3
+
+COCOAPODS: 1.5.3

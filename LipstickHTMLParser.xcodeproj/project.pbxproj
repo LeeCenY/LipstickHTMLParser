@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4823D52176EADB006C62FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4823D42176EADB006C62FB /* AppDelegate.m */; };
+		DC4823D82176EADB006C62FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4823D72176EADB006C62FB /* ViewController.m */; };
+		DC4823DB2176EADB006C62FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4823D92176EADB006C62FB /* Main.storyboard */; };
+		DC4823DD2176EADD006C62FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4823DC2176EADD006C62FB /* Assets.xcassets */; };
+		DC4823E02176EADD006C62FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4823DE2176EADD006C62FB /* LaunchScreen.storyboard */; };
+		DC4823E32176EADD006C62FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4823E22176EADD006C62FB /* main.m */; };
+		DC4823ED2176EADD006C62FB /* LipstickHTMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4823EC2176EADD006C62FB /* LipstickHTMLParserTests.m */; };
+		DC4823F82176EADD006C62FB /* LipstickHTMLParserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4823F72176EADD006C62FB /* LipstickHTMLParserUITests.m */; };
+		DC728026217719E6005E9380 /* CLYSLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC728025217719E6005E9380 /* CLYSLModel.m */; };
+		F9C9282B823BAAAEE0178936 /* libPods-LipstickHTMLParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB419686F5E73DF1ECBCE3D /* libPods-LipstickHTMLParser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4823E92176EADD006C62FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4823C82176EADB006C62FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4823CF2176EADB006C62FB;
+			remoteInfo = LipstickHTMLParser;
+		};
+		DC4823F42176EADD006C62FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4823C82176EADB006C62FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4823CF2176EADB006C62FB;
+			remoteInfo = LipstickHTMLParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48D628E411B00A84BF65CBBB /* Pods-LipstickHTMLParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickHTMLParser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickHTMLParser/Pods-LipstickHTMLParser.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7F1901D8807EE389CAD7E6 /* Pods-LipstickHTMLParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LipstickHTMLParser.release.xcconfig"; path = "Pods/Target Support Files/Pods-LipstickHTMLParser/Pods-LipstickHTMLParser.release.xcconfig"; sourceTree = "<group>"; };
+		DAB419686F5E73DF1ECBCE3D /* libPods-LipstickHTMLParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LipstickHTMLParser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4823D02176EADB006C62FB /* LipstickHTMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LipstickHTMLParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4823D32176EADB006C62FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC4823D42176EADB006C62FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC4823D62176EADB006C62FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC4823D72176EADB006C62FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC4823DA2176EADB006C62FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4823DC2176EADD006C62FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4823DF2176EADD006C62FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC4823E12176EADD006C62FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4823E22176EADD006C62FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC4823E82176EADD006C62FB /* LipstickHTMLParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickHTMLParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4823EC2176EADD006C62FB /* LipstickHTMLParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LipstickHTMLParserTests.m; sourceTree = "<group>"; };
+		DC4823EE2176EADD006C62FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4823F32176EADD006C62FB /* LipstickHTMLParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickHTMLParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4823F72176EADD006C62FB /* LipstickHTMLParserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LipstickHTMLParserUITests.m; sourceTree = "<group>"; };
+		DC4823F92176EADD006C62FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC728024217719E6005E9380 /* CLYSLModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLYSLModel.h; sourceTree = "<group>"; };
+		DC728025217719E6005E9380 /* CLYSLModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLYSLModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4823CD2176EADB006C62FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C9282B823BAAAEE0178936 /* libPods-LipstickHTMLParser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4823E52176EADD006C62FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4823F02176EADD006C62FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82A4286B559F661F2533EC72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48D628E411B00A84BF65CBBB /* Pods-LipstickHTMLParser.debug.xcconfig */,
+				5B7F1901D8807EE389CAD7E6 /* Pods-LipstickHTMLParser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9590C7C2146EC9FD13AF0851 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAB419686F5E73DF1ECBCE3D /* libPods-LipstickHTMLParser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4823C72176EADB006C62FB = {
+			isa = PBXGroup;
+			children = (
+				DC4823D22176EADB006C62FB /* LipstickHTMLParser */,
+				DC4823EB2176EADD006C62FB /* LipstickHTMLParserTests */,
+				DC4823F62176EADD006C62FB /* LipstickHTMLParserUITests */,
+				DC4823D12176EADB006C62FB /* Products */,
+				82A4286B559F661F2533EC72 /* Pods */,
+				9590C7C2146EC9FD13AF0851 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4823D12176EADB006C62FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4823D02176EADB006C62FB /* LipstickHTMLParser.app */,
+				DC4823E82176EADD006C62FB /* LipstickHTMLParserTests.xctest */,
+				DC4823F32176EADD006C62FB /* LipstickHTMLParserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4823D22176EADB006C62FB /* LipstickHTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				DC4823D32176EADB006C62FB /* AppDelegate.h */,
+				DC4823D42176EADB006C62FB /* AppDelegate.m */,
+				DC4823D62176EADB006C62FB /* ViewController.h */,
+				DC4823D72176EADB006C62FB /* ViewController.m */,
+				DC728024217719E6005E9380 /* CLYSLModel.h */,
+				DC728025217719E6005E9380 /* CLYSLModel.m */,
+				DC4823D92176EADB006C62FB /* Main.storyboard */,
+				DC4823DC2176EADD006C62FB /* Assets.xcassets */,
+				DC4823DE2176EADD006C62FB /* LaunchScreen.storyboard */,
+				DC4823E12176EADD006C62FB /* Info.plist */,
+				DC4823E22176EADD006C62FB /* main.m */,
+			);
+			path = LipstickHTMLParser;
+			sourceTree = "<group>";
+		};
+		DC4823EB2176EADD006C62FB /* LipstickHTMLParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4823EC2176EADD006C62FB /* LipstickHTMLParserTests.m */,
+				DC4823EE2176EADD006C62FB /* Info.plist */,
+			);
+			path = LipstickHTMLParserTests;
+			sourceTree = "<group>";
+		};
+		DC4823F62176EADD006C62FB /* LipstickHTMLParserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4823F72176EADD006C62FB /* LipstickHTMLParserUITests.m */,
+				DC4823F92176EADD006C62FB /* Info.plist */,
+			);
+			path = LipstickHTMLParserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4823CF2176EADB006C62FB /* LipstickHTMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4823FC2176EADD006C62FB /* Build configuration list for PBXNativeTarget "LipstickHTMLParser" */;
+			buildPhases = (
+				4F7CD533C5F2E4223E5D69CE /* [CP] Check Pods Manifest.lock */,
+				DC4823CC2176EADB006C62FB /* Sources */,
+				DC4823CD2176EADB006C62FB /* Frameworks */,
+				DC4823CE2176EADB006C62FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LipstickHTMLParser;
+			productName = LipstickHTMLParser;
+			productReference = DC4823D02176EADB006C62FB /* LipstickHTMLParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC4823E72176EADD006C62FB /* LipstickHTMLParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4823FF2176EADD006C62FB /* Build configuration list for PBXNativeTarget "LipstickHTMLParserTests" */;
+			buildPhases = (
+				DC4823E42176EADD006C62FB /* Sources */,
+				DC4823E52176EADD006C62FB /* Frameworks */,
+				DC4823E62176EADD006C62FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4823EA2176EADD006C62FB /* PBXTargetDependency */,
+			);
+			name = LipstickHTMLParserTests;
+			productName = LipstickHTMLParserTests;
+			productReference = DC4823E82176EADD006C62FB /* LipstickHTMLParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC4823F22176EADD006C62FB /* LipstickHTMLParserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4824022176EADD006C62FB /* Build configuration list for PBXNativeTarget "LipstickHTMLParserUITests" */;
+			buildPhases = (
+				DC4823EF2176EADD006C62FB /* Sources */,
+				DC4823F02176EADD006C62FB /* Frameworks */,
+				DC4823F12176EADD006C62FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4823F52176EADD006C62FB /* PBXTargetDependency */,
+			);
+			name = LipstickHTMLParserUITests;
+			productName = LipstickHTMLParserUITests;
+			productReference = DC4823F32176EADD006C62FB /* LipstickHTMLParserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4823C82176EADB006C62FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CL;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = LeeCen;
+				TargetAttributes = {
+					DC4823CF2176EADB006C62FB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DC4823E72176EADD006C62FB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DC4823CF2176EADB006C62FB;
+					};
+					DC4823F22176EADD006C62FB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DC4823CF2176EADB006C62FB;
+					};
+				};
+			};
+			buildConfigurationList = DC4823CB2176EADB006C62FB /* Build configuration list for PBXProject "LipstickHTMLParser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4823C72176EADB006C62FB;
+			productRefGroup = DC4823D12176EADB006C62FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4823CF2176EADB006C62FB /* LipstickHTMLParser */,
+				DC4823E72176EADD006C62FB /* LipstickHTMLParserTests */,
+				DC4823F22176EADD006C62FB /* LipstickHTMLParserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4823CE2176EADB006C62FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4823E02176EADD006C62FB /* LaunchScreen.storyboard in Resources */,
+				DC4823DD2176EADD006C62FB /* Assets.xcassets in Resources */,
+				DC4823DB2176EADB006C62FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4823E62176EADD006C62FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4823F12176EADD006C62FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F7CD533C5F2E4223E5D69CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LipstickHTMLParser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4823CC2176EADB006C62FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC728026217719E6005E9380 /* CLYSLModel.m in Sources */,
+				DC4823D82176EADB006C62FB /* ViewController.m in Sources */,
+				DC4823E32176EADD006C62FB /* main.m in Sources */,
+				DC4823D52176EADB006C62FB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4823E42176EADD006C62FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4823ED2176EADD006C62FB /* LipstickHTMLParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4823EF2176EADD006C62FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4823F82176EADD006C62FB /* LipstickHTMLParserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC4823EA2176EADD006C62FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4823CF2176EADB006C62FB /* LipstickHTMLParser */;
+			targetProxy = DC4823E92176EADD006C62FB /* PBXContainerItemProxy */;
+		};
+		DC4823F52176EADD006C62FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4823CF2176EADB006C62FB /* LipstickHTMLParser */;
+			targetProxy = DC4823F42176EADD006C62FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC4823D92176EADB006C62FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4823DA2176EADB006C62FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4823DE2176EADD006C62FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4823DF2176EADD006C62FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4823FA2176EADD006C62FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC4823FB2176EADD006C62FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4823FD2176EADD006C62FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D628E411B00A84BF65CBBB /* Pods-LipstickHTMLParser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G64N8825FL;
+				INFOPLIST_FILE = LipstickHTMLParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeCen.LipstickHTMLParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC4823FE2176EADD006C62FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7F1901D8807EE389CAD7E6 /* Pods-LipstickHTMLParser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G64N8825FL;
+				INFOPLIST_FILE = LipstickHTMLParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeCen.LipstickHTMLParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DC4824002176EADD006C62FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6F8RGP9LG;
+				INFOPLIST_FILE = LipstickHTMLParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeCen.LipstickHTMLParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LipstickHTMLParser.app/LipstickHTMLParser";
+			};
+			name = Debug;
+		};
+		DC4824012176EADD006C62FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6F8RGP9LG;
+				INFOPLIST_FILE = LipstickHTMLParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeCen.LipstickHTMLParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LipstickHTMLParser.app/LipstickHTMLParser";
+			};
+			name = Release;
+		};
+		DC4824032176EADD006C62FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6F8RGP9LG;
+				INFOPLIST_FILE = LipstickHTMLParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeCen.LipstickHTMLParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LipstickHTMLParser;
+			};
+			name = Debug;
+		};
+		DC4824042176EADD006C62FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6F8RGP9LG;
+				INFOPLIST_FILE = LipstickHTMLParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeeCen.LipstickHTMLParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LipstickHTMLParser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4823CB2176EADB006C62FB /* Build configuration list for PBXProject "LipstickHTMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4823FA2176EADD006C62FB /* Debug */,
+				DC4823FB2176EADD006C62FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4823FC2176EADD006C62FB /* Build configuration list for PBXNativeTarget "LipstickHTMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4823FD2176EADD006C62FB /* Debug */,
+				DC4823FE2176EADD006C62FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4823FF2176EADD006C62FB /* Build configuration list for PBXNativeTarget "LipstickHTMLParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4824002176EADD006C62FB /* Debug */,
+				DC4824012176EADD006C62FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4824022176EADD006C62FB /* Build configuration list for PBXNativeTarget "LipstickHTMLParserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4824032176EADD006C62FB /* Debug */,
+				DC4824042176EADD006C62FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4823C82176EADB006C62FB /* Project object */;
+}
