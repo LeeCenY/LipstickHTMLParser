@@ -51,4 +51,10 @@ static NSString *const YSLURLString = @"https://www.yslbeautycn.com/makeup-lipst
     return model;
 }
 
+- (void)setTitle:(NSString *)title {
+
+    self.title = [[[[[title stringByReplacingOccurrencesOfString:@"N°" withString:@""] stringByReplacingOccurrencesOfString:@" (HOT)" withString:@""] stringByReplacingOccurrencesOfString:@"（HOT）" withString:@""] stringByReplacingOccurrencesOfString:@" (热卖)" withString:@""] stringByReplacingOccurrencesOfString:@"(热卖)" withString:@""];
+    
+}
+
 @end

@@ -13,9 +13,9 @@
 		DC4823DD2176EADD006C62FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4823DC2176EADD006C62FB /* Assets.xcassets */; };
 		DC4823E02176EADD006C62FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4823DE2176EADD006C62FB /* LaunchScreen.storyboard */; };
 		DC4823E32176EADD006C62FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4823E22176EADD006C62FB /* main.m */; };
-		DC4823ED2176EADD006C62FB /* LipstickHTMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4823EC2176EADD006C62FB /* LipstickHTMLParserTests.m */; };
-		DC4823F82176EADD006C62FB /* LipstickHTMLParserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4823F72176EADD006C62FB /* LipstickHTMLParserUITests.m */; };
 		DC728026217719E6005E9380 /* CLYSLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC728025217719E6005E9380 /* CLYSLModel.m */; };
+		DC72802C217860BC005E9380 /* CLCPBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72802B217860BC005E9380 /* CLCPBModel.m */; };
+		DC72802F21786253005E9380 /* CLLipsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72802E21786253005E9380 /* CLLipsModel.m */; };
 		F9C9282B823BAAAEE0178936 /* libPods-LipstickHTMLParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB419686F5E73DF1ECBCE3D /* libPods-LipstickHTMLParser.a */; };
 /* End PBXBuildFile section */
 
@@ -51,13 +51,13 @@
 		DC4823E12176EADD006C62FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4823E22176EADD006C62FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC4823E82176EADD006C62FB /* LipstickHTMLParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickHTMLParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC4823EC2176EADD006C62FB /* LipstickHTMLParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LipstickHTMLParserTests.m; sourceTree = "<group>"; };
-		DC4823EE2176EADD006C62FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4823F32176EADD006C62FB /* LipstickHTMLParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LipstickHTMLParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC4823F72176EADD006C62FB /* LipstickHTMLParserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LipstickHTMLParserUITests.m; sourceTree = "<group>"; };
-		DC4823F92176EADD006C62FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC728024217719E6005E9380 /* CLYSLModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLYSLModel.h; sourceTree = "<group>"; };
 		DC728025217719E6005E9380 /* CLYSLModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLYSLModel.m; sourceTree = "<group>"; };
+		DC72802A217860BC005E9380 /* CLCPBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCPBModel.h; sourceTree = "<group>"; };
+		DC72802B217860BC005E9380 /* CLCPBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCPBModel.m; sourceTree = "<group>"; };
+		DC72802D21786253005E9380 /* CLLipsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLLipsModel.h; sourceTree = "<group>"; };
+		DC72802E21786253005E9380 /* CLLipsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLLipsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				DC4823D22176EADB006C62FB /* LipstickHTMLParser */,
-				DC4823EB2176EADD006C62FB /* LipstickHTMLParserTests */,
-				DC4823F62176EADD006C62FB /* LipstickHTMLParserUITests */,
 				DC4823D12176EADB006C62FB /* Products */,
 				82A4286B559F661F2533EC72 /* Pods */,
 				9590C7C2146EC9FD13AF0851 /* Frameworks */,
@@ -132,8 +130,12 @@
 				DC4823D42176EADB006C62FB /* AppDelegate.m */,
 				DC4823D62176EADB006C62FB /* ViewController.h */,
 				DC4823D72176EADB006C62FB /* ViewController.m */,
+				DC72802D21786253005E9380 /* CLLipsModel.h */,
+				DC72802E21786253005E9380 /* CLLipsModel.m */,
 				DC728024217719E6005E9380 /* CLYSLModel.h */,
 				DC728025217719E6005E9380 /* CLYSLModel.m */,
+				DC72802A217860BC005E9380 /* CLCPBModel.h */,
+				DC72802B217860BC005E9380 /* CLCPBModel.m */,
 				DC4823D92176EADB006C62FB /* Main.storyboard */,
 				DC4823DC2176EADD006C62FB /* Assets.xcassets */,
 				DC4823DE2176EADD006C62FB /* LaunchScreen.storyboard */,
@@ -141,24 +143,6 @@
 				DC4823E22176EADD006C62FB /* main.m */,
 			);
 			path = LipstickHTMLParser;
-			sourceTree = "<group>";
-		};
-		DC4823EB2176EADD006C62FB /* LipstickHTMLParserTests */ = {
-			isa = PBXGroup;
-			children = (
-				DC4823EC2176EADD006C62FB /* LipstickHTMLParserTests.m */,
-				DC4823EE2176EADD006C62FB /* Info.plist */,
-			);
-			path = LipstickHTMLParserTests;
-			sourceTree = "<group>";
-		};
-		DC4823F62176EADD006C62FB /* LipstickHTMLParserUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DC4823F72176EADD006C62FB /* LipstickHTMLParserUITests.m */,
-				DC4823F92176EADD006C62FB /* Info.plist */,
-			);
-			path = LipstickHTMLParserUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +301,8 @@
 				DC728026217719E6005E9380 /* CLYSLModel.m in Sources */,
 				DC4823D82176EADB006C62FB /* ViewController.m in Sources */,
 				DC4823E32176EADD006C62FB /* main.m in Sources */,
+				DC72802C217860BC005E9380 /* CLCPBModel.m in Sources */,
+				DC72802F21786253005E9380 /* CLLipsModel.m in Sources */,
 				DC4823D52176EADB006C62FB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC4823ED2176EADD006C62FB /* LipstickHTMLParserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC4823F82176EADD006C62FB /* LipstickHTMLParserUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
