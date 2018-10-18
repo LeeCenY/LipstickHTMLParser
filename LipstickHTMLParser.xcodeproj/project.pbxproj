@@ -16,6 +16,7 @@
 		DC728026217719E6005E9380 /* CLYSLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC728025217719E6005E9380 /* CLYSLModel.m */; };
 		DC72802C217860BC005E9380 /* CLCPBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72802B217860BC005E9380 /* CLCPBModel.m */; };
 		DC72802F21786253005E9380 /* CLLipsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72802E21786253005E9380 /* CLLipsModel.m */; };
+		DC72803221787E1E005E9380 /* CLChanelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72803121787E1E005E9380 /* CLChanelModel.m */; };
 		F9C9282B823BAAAEE0178936 /* libPods-LipstickHTMLParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB419686F5E73DF1ECBCE3D /* libPods-LipstickHTMLParser.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,8 @@
 		DC72802B217860BC005E9380 /* CLCPBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCPBModel.m; sourceTree = "<group>"; };
 		DC72802D21786253005E9380 /* CLLipsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLLipsModel.h; sourceTree = "<group>"; };
 		DC72802E21786253005E9380 /* CLLipsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLLipsModel.m; sourceTree = "<group>"; };
+		DC72803021787E1E005E9380 /* CLChanelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLChanelModel.h; sourceTree = "<group>"; };
+		DC72803121787E1E005E9380 /* CLChanelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLChanelModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				DC728025217719E6005E9380 /* CLYSLModel.m */,
 				DC72802A217860BC005E9380 /* CLCPBModel.h */,
 				DC72802B217860BC005E9380 /* CLCPBModel.m */,
+				DC72803021787E1E005E9380 /* CLChanelModel.h */,
+				DC72803121787E1E005E9380 /* CLChanelModel.m */,
 				DC4823D92176EADB006C62FB /* Main.storyboard */,
 				DC4823DC2176EADD006C62FB /* Assets.xcassets */,
 				DC4823DE2176EADD006C62FB /* LaunchScreen.storyboard */,
@@ -300,6 +305,7 @@
 			files = (
 				DC728026217719E6005E9380 /* CLYSLModel.m in Sources */,
 				DC4823D82176EADB006C62FB /* ViewController.m in Sources */,
+				DC72803221787E1E005E9380 /* CLChanelModel.m in Sources */,
 				DC4823E32176EADD006C62FB /* main.m in Sources */,
 				DC72802C217860BC005E9380 /* CLCPBModel.m in Sources */,
 				DC72802F21786253005E9380 /* CLLipsModel.m in Sources */,
